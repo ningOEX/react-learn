@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Test from "./components/Test";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
  root.render(
   <React.StrictMode>
-    <h1>1</h1>
+   <Test />
   </React.StrictMode>
   )
