@@ -1,0 +1,23 @@
+.movie_container{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #eee;
+    
+}
+.item_li{
+   display: block;
+    padding: 10px 20px;
+    margin: 0;
+    border: 2px solid #fff;
+    box-shadow: 6px 6px 15px 0 rgb(136 167 225 / 10%), -5px -7px 15px 0 #fff;
+    cursor:grabbing;
+}
+.movie_name{
+    font-size: 1.6em;
+    color: rgb(74, 75, 75);
+}
+.movie_money{
+    color: #f40;
+    padding-right: 20px;
+}

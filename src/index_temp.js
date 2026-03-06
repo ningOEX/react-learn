@@ -1,12 +1,10 @@
 import React from "react";
-import "./index.css"
 import ReactDOM from "react-dom/client";
-import PagerTest from "./components/PagerTest";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
- root.render(
+root.render(
   <React.StrictMode>
     {/* <BallList /> */}
-   <PagerTest />
   </React.StrictMode>
-  )
+);
