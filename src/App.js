@@ -1,11 +1,10 @@
 import React from 'react'
-
-import NewContext from './newContext'
+import Test from "./components/common/Form/Test"
 
 export default function App() {
   return (
     <div>
-      <NewContext />
+      <Test/>
     </div>
   )
 }
