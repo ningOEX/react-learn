@@ -1,0 +1,32 @@
+import React, { Component } from 'react'
+import PropTypes from "prop-types"
+import ctx from "./FormContext"
+
+// 一定处于上下文中
+export default class FormInput extends Component {
+
+    // 引入上下文
+    static contextType = ctx
+
+    static defaultProps = {
+        type: "text"
+    }
+
+    static propTypes = {
+        name: PropTypes.string.isRequired,
+        type: PropTypes.string.isRequired,
+    }
+  render() {
+    return (
+      <input 
+      value={this.context.formData[this.props.name] || ""} 
+      type={this.props.type} 
+      onChange={
+        (e)=>{
+            this.context.changeFormData(this.props.name,e.target.value)
+        }
+      }
+      />
+    )
+  }
+}

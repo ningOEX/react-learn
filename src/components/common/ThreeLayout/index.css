@@ -1,0 +1,19 @@
+.three-layout-container{
+    display: flex;
+}
+
+.side-left{
+    order: 1;
+    border: 1px solid red;
+}
+
+.main{
+    order: 2;
+    flex: 1 1 auto;
+    border: 1px solid green;
+}
+
+.side-right{
+    order: 3;
+    border: 1px solid blue;
+}
