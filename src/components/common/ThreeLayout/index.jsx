@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import PropTypes from 'prop-types'
-import CommonTypes from "../../../utils/CommonTypes"
+import CommonTypes from "../../../utils/commonTypes"
 
 ThreeLayout.defaultProps = {
     minWidth: 800,
