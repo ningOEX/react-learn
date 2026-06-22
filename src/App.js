@@ -1,10 +1,12 @@
 import React from 'react'
-import Test from "./components/common/Form/Test"
+import PhotoListContainer from './components/PhotoListContainer'
+
 
 export default function App() {
+
   return (
     <div>
-      <Test/>
+      <PhotoListContainer />
     </div>
   )
 }
