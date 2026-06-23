@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import CommonTypes from "../../../utils/commonTypes";
+// import CommonTypes from "../../../utils/commonTypes";
 import PropTypes from "prop-types";
 
 Modal.defaultProps = {
@@ -8,7 +8,7 @@ Modal.defaultProps = {
 };
 
 Modal.propTypes = {
-  children: CommonTypes.children,
+  children: PropTypes.node,
   bg: PropTypes.string,
 
   showModal: PropTypes.bool.isRequired,
