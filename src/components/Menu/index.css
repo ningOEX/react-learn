@@ -1,0 +1,40 @@
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    a{
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        transition: 0.35s;
+        color: white;
+        text-decoration: none;
+        /* display: block; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            /* background-color: white; */
+            color: #199cd8;
+            cursor: pointer;
+        }
+        &:active{
+            color: #0d374b;
+        }
+    }
+    .menu-label{
+        padding-left: 4px;
+    }
+}
+
+/* 选中高亮 */
+.menu-content a.active {
+  background-color: white;
+  color: #0d374b;
+  font-size:medium;
+}
